@@ -1,7 +1,5 @@
 import './App.css';
 import { BrowserRouter as Router,Route}  from 'react-router-dom'
-import  React,{Component}  from  'react'
-import  { Redirect } from 'react-router';
 import  About from './component/about'
 import  Contact from './component/contact'
 import  Home from './component/home'
