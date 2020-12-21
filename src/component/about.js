@@ -17,7 +17,7 @@ const About=()=>{
                     Windows XP/Vista/8/10/, Technical troubleshooting, Computer maintenance.
                 </p>
               </section>
-               <img   style={{'width':'20vw','height':'40vh','position':'relative','bottom':'500px','left':'10%'}} src='ahmedafandy.png' />
+               <img   style={{'width':'20vw','height':'40vh','position':'relative','bottom':'500px','left':'10%'}} src='ahmedafandy.png' alt="selfphoto"  />
 
              </div>
         </div>
