@@ -2,7 +2,6 @@ import Menue from './menue';
 import emailjs from 'emailjs-com'
 import React,{Component} from 'react'
 import FlashMessage from 'react-flash-message';
-import { render } from 'react-dom';
 
 
 class  Contact  extends Component {

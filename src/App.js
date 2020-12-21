@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router,Route,Switch,Link,NavLink}  from 'react-router-dom'
+import { BrowserRouter as Router,Route}  from 'react-router-dom'
 import  React,{Component}  from  'react'
 import  { Redirect } from 'react-router';
 import  About from './component/about'
@@ -16,9 +16,9 @@ function App() {
         <Router>
            
                 <Route exact path="/"  render={routeProps => <Home {...routeProps} />} />
-                <Route exact path="/About"     render={routeProps => <About {...routeProps}/>} />
-                <Route exact path="/Work"      render={routeProps => <Work {...routeProps} />}  />
-                <Route exact path="/Contact"   render={routeProps => <Contact {...routeProps} />} />
+                <Route exact path="/About"  render={routeProps => <About {...routeProps}/>} />
+                <Route exact path="/Work"   render={routeProps => <Work {...routeProps} />}  />
+                <Route exact path="/Contact"  render={routeProps => <Contact {...routeProps} />} />
           
         </Router>
 
