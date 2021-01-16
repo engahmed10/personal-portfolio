@@ -237,15 +237,12 @@ html,body{
  
 
 
- @media only  screen  and (max-width:800px) and (min-width: 480px){
+ @media only screen and (min-width:320px){
 
         .img-home{
           width:100vw;
         }
 
-
-
-   
   
  }
 
@@ -349,9 +346,7 @@ html,body{
 }
 
 
-
-
-@media only screen and (max-width:800px) and (min-width: 480px){
+@media only screen and (min-width:320px) {
    
     .sidebar {
       display:block
@@ -423,7 +418,8 @@ label:not(.submit){
 
 
 
-@media only screen and (max-width:800px) and (min-width:480px){
+@media only screen and (min-width:320px) {
+
 
   .about{
  
@@ -478,7 +474,8 @@ label:not(.submit){
    
 }
 
-@media only screen and (max-width:800px) and (min-width:480px){
+@media only screen and (min-width:320px){
+
  
 
   .contact{
@@ -534,7 +531,7 @@ label:not(.submit){
   
  }
 }
-@media only screen and (max-width:800px) and (min-width:480px){
+@media only screen and (min-width:320px) {
  
 
 
