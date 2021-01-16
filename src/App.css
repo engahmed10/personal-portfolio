@@ -1,6 +1,170 @@
 html,body{
+  margin: 0;
+  overflow-x: hidden;
+  
+}
 
-  background-size: cover;
+.about{
+
+  height: 70%;
+  position: relative;
+  width: 100%;
+  bottom:3em;
+  margin-bottom: 1em;
+
+}
+
+
+.about-card{
+ 
+   background-color: rgb(16, 42, 65);
+   color: aliceblue;
+   height:60vh;
+   padding-top:25em ;
+   padding-left: 2em; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.about-card p{
+ 
+  padding-left: 22em;
+  justify-content: center;
+  width:50%;
+  font-size: larger;
+  font-weight: 500;
+  color: rgb(253, 253, 253);
+  font-family: monospace;
+}
+
+.self-img{
+  width:22%;
+  height:30%;
+  position: absolute;;
+  left:40%;
+  top: 5em;
+  border: 2px solid rgb(199, 172, 167);
+  border-radius: 400px;
+  background-color: rgb(243, 243, 243);
+  
+  
+}
+
+.scroll-logo{
+
+  width:40px ;
+  height:30px;
+  padding-top:0.5em ;
+  margin-left:50% ;
+  margin-top: 1em;
+  background: #ebeef3;
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(134, 136, 145)
+
+}
+
+.div-scroll-about{
+  height: 80px;
+  background-color: rgba(196, 191, 189, 0.096);
+  position: relative;
+  bottom:7.5em;
+  width: 100%;
+
+}
+
+.contact{
+  background-color: rgb(13, 47, 70);
+  color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 130vh;
+  margin-top: -10em;
+}
+.contact-card{
+  display: grid;
+  width: 500px;
+  height: 60vh;
+  background-color: rgb(69, 98, 116);
+  position: relative;;
+  left: 30em;
+  top: 7em;
+  border-radius: 20px;
+}
+
+.contact h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-variant: small-caps;
+  margin: 1em;
+}
+
+.contact-bar{
+
+  background-color: rgb(69, 98, 116);
+  height: 150px;
+  margin-top: 150px;
+
+}
+
+.contact-bar  li{
+  float: left;
+  margin-left:5em;
+  padding-left: 20em;
+  margin-top:2em;
+  list-style: none;
+  color: #e4eeeec7;
+}
+
+
+.scroll-logo-2{
+  width:100% ;
+  height:60px;
+  background-color: rgb(13, 47, 70);
+}
+
+.img-scroll-contact{
+
+  width:40px ;
+  height:30px;
+  position: relative;
+  right: 22em;
+  top:10px;
+  background: #ebeef3;
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(134, 136, 145)
+  
+}
+
+
+.work{
+
+  background-color: rgb(108, 144, 155);
+  position: relative;
+  bottom: 17em;
+  width: 100vw;
+  height: 150vh;
+  
+}
+
+.projects{
+  background-color: rgb(42, 90, 129);
+  color: aliceblue;
+  width: 80vw;
+  margin-bottom:10em ;
+  position: relative;
+  left: 3em;
+}
+
+.scroll-logo-3{
+  width:30px ;
+  height:30px;
+  position:relative;
+  bottom:-23px;
+  left:700px;
+  background: #ebeef3;
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(134, 136, 145)
+  
+}
+
+.div-scroll-work{
+
+  height: 5em;
+  background-color:rgb(13, 47, 70)
 
 }
 
@@ -9,99 +173,80 @@ html,body{
 
   width: 100vw;
   height: 100vh;
+  margin-bottom: -3em;
+  background-size: ;
 
  }
+
+ .container-home{
+     overflow: hidden;
+}
  
  .footer{
-
      width: 100%;
-     height: 60px;
-     background-color:rgb(2, 107, 20);
+     height: 50px;
+     background-color:rgb(9, 12, 29);
      text-align: center;
      font-size: larger;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     color: #02040c;
+     color: #e7ecff;
      justify-content: left;
-     padding-top: 1.25em;
-      margin-top: -4px;
-     
+     padding: 3em 0 0 0; 
+     margin-top:-16em ;  
  }
- .github-icon img{
 
-  position: absolute;
-  bottom:0;
-  left: 2%;
-  width: 20px;
-  
+ .github-icon img{
+  position: relative;
+  bottom:220px;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(231, 231, 235);
+
  }
   
  .mail-icon  img{
-  max-width: 20px;
+  
+  position: relative;
+  bottom:275px;
+  left: 45%;
   width: 25px;
-  position: absolute;
-  bottom:0;
-  left: 5%;
-  
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(231, 231, 235);
+
  }
 
- .home-about-btn{
-  position: absolute;
-  top: 68%;
-  left: 20%;
-  padding:5px 25px 5px 25px;
-  color: white;
-  background-color:rgb(7, 107, 12);
-  border-radius: 10px; 
-  text-shadow: 2px 2px #137ed6;
+ .linkedin-icon img {
+
+  position: relative;
+  bottom:250px;
+  left: 55%;
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(231, 231, 235);
+
  }
 
-.home-contact-btn{
-  position: absolute;
-  top: 68%;
-  left: 30%;
-  padding:5px 25px 5px 25px;
-  color: white;
-  background-color:rgb(7, 107, 12);
-  border-radius: 10px; 
-  text-shadow: 2px 2px #137ed6;
- }
- .home-about-btn:hover, .home-contact-btn:hover{ 
-   background-color:green;
- }
 
  
 
 
- @media only  screen  and (max-width:700px) and (min-width: 480px){
+ @media only  screen  and (max-width:800px) and (min-width: 480px){
 
-  .img-home{
-     width:100vw;
-     height:100vh;
-     overflow-y: hidden;
-  }
- 
-  .home-contact-btn{
-    position: fixed;
-    left: 20%;
-    padding:2px 10px 2px 10px;
-    margin-right: 20px;
+        .img-home{
+          width:100vw;
+        }
 
-   }
-   .home-about-btn{
-      position: fixed;
-      left: 20%;
-      padding:2px 15px 2px 15px;
-      margin-right: 20px;
-      top: 75%;
-  
-   }
-   .mail-icon  img{
+
+
    
-    position: absolute;
-
-    left: 10%;
-
-   }
+  
  }
 
  /*nav bar  down  & resposnive navbar down*/
@@ -111,16 +256,14 @@ html,body{
    display: none;
  }
 
-.navlink .link{
+ .link{
 
-  font-size: 25px;
-  
+  font-size: 15px;
   text-decoration: none;
-  color: rgb(9, 238, 104);
+  color:rgb(255, 255, 255);
   font-family: 'Courier New', Courier, monospace ;
   text-shadow: 3px 2px #060f0a;
-  margin: 20px 100px 0 10px;
-  position: relative;
+  margin: 20px 100px 0 25px;
   float: right;
 
 }
@@ -139,9 +282,11 @@ html,body{
 }
 
 .navlink{
-  background-color:rgb(23, 31, 23);
+  
   box-shadow: rgb(190, 17, 17);
-  height: 60px;
+  position: absolute;
+  margin: 2em;
+  left: 22em;
 
 }
 .sidebar {
@@ -206,7 +351,7 @@ html,body{
 
 
 
-@media only screen and (max-width:780px) and (min-width: 480px){
+@media only screen and (max-width:800px) and (min-width: 480px){
    
     .sidebar {
       display:block
@@ -214,6 +359,7 @@ html,body{
     .navlink .link{
       display: none;
     }
+   
 
 }
 
@@ -221,44 +367,34 @@ html,body{
 .projects{
   display:grid;
   margin: 5em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(24, 24, 26);
+
 }
 
 .project-card{
   float: left;
   margin: 10px;
+  box-shadow: 0 8px 16px 0 rgb(143, 161, 173), 0 6px 20px 0 rgb(24, 24, 26);
+
+
 }
  h6{
-
   text-align: center;
   width: 200px;
   padding: 0 0 0 7em;
 }
 
-.contact{
-
-  margin:  20% 35%;
-  display: grid;
-  width: 500px;
-  background-color: rgb(217, 227, 228);
-}
-
-.contact h1{
-
-
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-variant: small-caps;
-  margin: 1em;
-   
-}
 
 input:not(.submit)  {
 
   margin: 1em;
 
+
 }
 
 textarea{
  margin: 2%;
+ padding-left: 4em;
 }
 
 label:not(.submit){
@@ -272,57 +408,173 @@ label:not(.submit){
 .submit{
 
   padding:0.3em 1em 0.3em 1em;
-  margin: 2em;
+  margin: 1.5em 2em;
   font-size: larger;
-  background-color: rgb(144, 194, 144);
-   border-radius: 10px;
+  background-color: #f1f1f1;
+  color: #2c1a0f;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 5px;
+
+  
 }
 
 
 
-@media only screen and (max-width:760px) and (min-width:480px){
-  
- section{
-   position: relative;
-   right: 230px;
-   width: 70%;
-  }
-  section h1{
-     margin-left: 8em;
-
-  }
+@media only screen and (max-width:800px) and (min-width:480px){
 
   .about{
+ 
     height: 100vh;
+    width: 100vw;
+    margin-bottom: 1em;
     overflow: hidden;
+
   }
-
-  .about-container{
-
-        margin: 0 5em 0 -6em;
-        position: relative;      
-  }
-
-}
-
-@media only screen and (max-width:760px) and (min-width:48px){
  
-  .contact{
+    .self-img{
+     width:25vw;
+     height:25vh;
+     position: absolute;;
+     left:35%;
+     top: 1em;
+     border: 2px solid rgb(199, 172, 167);
+     border-radius: 200px;
+     background-color: rgb(243, 243, 243);
+     
+   }
+  
+    .about-card{
+  
+     background-color: rgb(16, 42, 65);
+     color: aliceblue;
+     padding-top:12em ;
+     padding-left: 1em; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+   }
+   .about-card p{
+   
+    padding-left: 7em;
+    justify-content: center;
+    width:80vw;
+    height: 40vh;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(253, 253, 253);
+    font-family: monospace;
+  }
     
-      width: 75vw;
-      height:60vh;
+    
+    .div-scroll-about{
+
       position: relative;
-      right: 6em; 
-  }
-}
-@media only screen and (max-width:760px) and (min-width:48px){
- 
-  .project-card a{
-     position: relative;
-     top: 240px;
-  }
+      bottom:4em;
+      
+    }
+   
+   
 }
 
+@media only screen and (max-width:800px) and (min-width:480px){
+ 
+
+  .contact{
+    background-color: rgb(13, 47, 70);
+    color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 130vh;
+    margin-top: -12em;
+  }
+  .contact-card{
+    position: relative;;
+    left: 10em;
+    top: 5em;
+  }
+  
+  .contact h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    margin: 1em;
+  }
+  
+  .contact-bar  li:first-child{
+  
+    position: relative;
+    right: 16em;
+  
+  
+  }
+  .contact-bar  li:last-child{
+  
+    position: relative;
+    bottom: 10em;
+    left: 4em;
+  
+  
+  }
+  
+ 
+  .img-scroll-contact{
+  
+  
+    position: relative;
+    right: 15em;
+    
+  }
+  
+
+ .mail-icon  img{
+ 
+  position: relative;
+  bottom: 280px;
+  left: 42%;
+  
+ }
+}
+@media only screen and (max-width:800px) and (min-width:480px){
+ 
+
+
+  .work{
+    height: 220vh;
+    
+  }
+.projects{
+  background-color: rgb(42, 90, 129);
+  color: aliceblue;
+  width: 110vw;
+  margin-bottom:10em ;
+  position: relative;
+  left: -2em;
+  height: 100vh;
+}
+
+.scroll-logo-3{
+  position:relative;
+  bottom:-23px;
+  left:350px;
+  
+}
+
+
+.footer{
+
+  text-align: center;
+  font-size: larger;
+  justify-content: left;
+  padding: 3em 0 0 0; 
+}
+
+.pic{
+  position: relative;
+  right: 20em;
+}
+
+
+}
 
 
 
