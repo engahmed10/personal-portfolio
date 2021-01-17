@@ -141,14 +141,6 @@ html,body{
   
 }
 
-.projects{
-  background-color: rgb(42, 90, 129);
-  color: aliceblue;
-  width: 80vw;
-  margin-bottom:10em ;
-  position: relative;
-  left: 3em;
-}
 
 .scroll-logo-3{
   width:30px ;
@@ -233,19 +225,6 @@ html,body{
 
  }
 
-
- 
-
-
- @media only screen and (min-width:320px){
-
-        .img-home{
-          width:100vw;
-        }
-
-  
- }
-
  /*nav bar  down  & resposnive navbar down*/
 
  .sidebar-icon{
@@ -306,11 +285,11 @@ html,body{
 }
 .menu-item {
   padding: 5px;
-  color: rgb(8, 71, 3);
+  color: rgb(236, 240, 250);
 }
 
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: #b7bcc7;
 }
 
 .bm-cross-button {
@@ -319,7 +298,7 @@ html,body{
 }
 
 .bm-cross {
-  background: #bdc3c7;
+  background: #a11c0a;
 }
 
 
@@ -329,24 +308,24 @@ html,body{
 }
 
 .bm-menu {
-  background: #8d92aa;
+  background: #4b7ec2;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 
 }
 
 .bm-morph-shape {
-  fill: #81b1ae;
+  fill: #021110;
 }
 
 .bm-item-list {
 
   padding: 0.8em;
-  background-color: rgba(85, 52, 52, 0.233) 
+  background-color: rgba(10, 20, 20, 0.233) 
 }
 
 
-@media only screen and (min-width:320px) {
+@media only screen and (max-width:700px)  and (min-width:320px) {
    
     .sidebar {
       display:block
@@ -363,7 +342,6 @@ html,body{
   display:grid;
   margin: 5em;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(24, 24, 26);
-
 }
 
 .project-card{
@@ -417,22 +395,29 @@ label:not(.submit){
 }
 
 
+ 
 
-@media only screen and (min-width:320px) {
+
+@media only screen and (max-width:700px) and (min-width:320px){
+
+  .img-home{
+    width:100vw;
+    height: 100vh;
+  }
+
+}
+
+@media only screen and (max-width:700px)  and (min-width:320px) {
 
 
   .about{
- 
     height: 100vh;
     width: 100vw;
-    margin-bottom: 1em;
-    overflow: hidden;
-
   }
  
     .self-img{
      width:25vw;
-     height:25vh;
+     height:18vh;
      position: absolute;;
      left:35%;
      top: 1em;
@@ -446,19 +431,19 @@ label:not(.submit){
   
      background-color: rgb(16, 42, 65);
      color: aliceblue;
-     padding-top:12em ;
-     padding-left: 1em; 
+     padding-top:13em ;
+     padding-left: 0; 
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      
+    
    }
    .about-card p{
    
-    padding-left: 7em;
+    padding-left: 4em;
     justify-content: center;
     width:80vw;
-    height: 40vh;
-    font-size: larger;
-    font-weight: 500;
+ 
+    font-size: medium;
+    font-weight: 300;
     color: rgb(253, 253, 253);
     font-family: monospace;
   }
@@ -467,14 +452,14 @@ label:not(.submit){
     .div-scroll-about{
 
       position: relative;
-      bottom:4em;
+      bottom:-0em;
       
     }
    
    
 }
 
-@media only screen and (min-width:320px){
+@media only screen and (max-width:780px)  and (min-width:320px){
 
  
 
@@ -482,13 +467,15 @@ label:not(.submit){
     background-color: rgb(13, 47, 70);
     color: rgb(0, 0, 0);
     width: 100vw;
-    height: 130vh;
-    margin-top: -12em;
+    height: auto;
+    
   }
   .contact-card{
     position: relative;;
-    left: 10em;
-    top: 5em;
+    width: 80vw;
+    height: 60vh;
+    left: 3em;
+    top: 14em;
   }
   
   .contact h1{
@@ -496,64 +483,135 @@ label:not(.submit){
     font-variant: small-caps;
     margin: 1em;
   }
+
+ 
   
   .contact-bar  li:first-child{
   
     position: relative;
-    right: 16em;
+    right: 25em;
+    bottom: 3.5em;
+  
+  
+  }
+
+  .contact-bar  li:first-child img{
+  
+    position: relative;
+    top: 2em;
   
   
   }
   .contact-bar  li:last-child{
-  
     position: relative;
-    bottom: 10em;
-    left: 4em;
-  
-  
+    bottom:14em;
+    left: -7em;
   }
-  
- 
-  .img-scroll-contact{
-  
-  
+  .contact-bar  li:last-child img {
     position: relative;
-    right: 15em;
+    top:1.7em;
     
   }
+
+  .contact-bar{
+      margin-top: 20em;
+      height: 35vh;
+    }
   
 
- .mail-icon  img{
- 
-  position: relative;
-  bottom: 280px;
-  left: 42%;
+    textarea{
+      margin-left: 40%;
+      padding-left: 4em;
+     }
+
+x
+     .submit{
+      margin:0 0 0  10%;
+     }
+
+     #description-label{
+       position: relative;
+       top:4em;
+     }
+     
   
- }
+
+
+.scroll-logo-2{
+ 
+ 
 }
-@media only screen and (min-width:320px) {
- 
 
 
-  .work{
-    height: 220vh;
+.img-scroll-contact{
+
+
+}
+
+
+
     
+  .mail-icon  img{
+    position: relative;
+    bottom: 280px;
+    left: 42%;
+
   }
+  .github-icon  img{
+    position: relative;
+    left: 63%;
+  }
+  .linkedin-icon  img{
+    position: relative;
+    left: 53%;
+  }
+
+  }
+
+
+  @media only screen and (max-width:700px)  and (min-width:320px) {
+  
+
+
+    .work{
+      height: 320vh; 
+      position: relative;
+       
+    }
 .projects{
   background-color: rgb(42, 90, 129);
   color: aliceblue;
-  width: 110vw;
+  width: 60vw;
   margin-bottom:10em ;
   position: relative;
   left: -2em;
-  height: 100vh;
+
+  margin-top: -2em;
+}
+
+.project-card{
+
+  width: 50vw;
+
+  height: 40vh;
+
+}
+.project-card a{
+  position: relative;
+  top: 10em;
+  left : -2em;
+
+}
+.project-card h6{
+position: relative;
+right: 5em;
+
 }
 
 .scroll-logo-3{
   position:relative;
   bottom:-23px;
   left:350px;
-  
 }
 
 
@@ -563,6 +621,8 @@ label:not(.submit){
   font-size: larger;
   justify-content: left;
   padding: 3em 0 0 0; 
+  position: relative;
+  top: 15em;
 }
 
 .pic{
@@ -570,6 +630,11 @@ label:not(.submit){
   right: 20em;
 }
 
+.scroll-logo-3{
+
+ margin:0 -8em;
+
+}
 
 }
 
