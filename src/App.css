@@ -416,8 +416,8 @@ label:not(.submit){
   }
  
     .self-img{
-     width:25vw;
-     height:18vh;
+     width:30vw;
+     height:17vh;
      position: absolute;;
      left:35%;
      top: 1em;
@@ -439,6 +439,7 @@ label:not(.submit){
    .about-card p{
    
     padding-left: 4em;
+    margin-bottom:2em ;
     justify-content: center;
     width:80vw;
     font-size: medium;
@@ -449,10 +450,9 @@ label:not(.submit){
     
     
     .div-scroll-about{
-
       position: relative;
       bottom:5em;
-      
+      display: none;
     }
    
    
@@ -469,7 +469,7 @@ label:not(.submit){
     height: auto;
     position: relative;
     bottom: 4em;
-    
+   
   }
   .contact-card{
     position: relative;;
@@ -563,16 +563,16 @@ x
       position: relative;
        
     }
-.projects{
-  background-color: rgb(42, 90, 129);
-  color: aliceblue;
-  width: 60vw;
-  margin-bottom:10em ;
-  position: relative;
-  left: -2em;
+    .projects{
+      background-color: rgb(42, 90, 129);
+      color: aliceblue;
+      width: 60vw;
+      margin-bottom:10em ;
+      position: relative;
+      left: -2em;
 
-  margin-top: -2em;
-}
+      margin-top: -2em;
+    }
 
 .project-card{
 
