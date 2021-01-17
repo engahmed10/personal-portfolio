@@ -431,7 +431,7 @@ label:not(.submit){
   
      background-color: rgb(16, 42, 65);
      color: aliceblue;
-     padding-top:13em ;
+     padding-top:11em ;
      padding-left: 0; 
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
@@ -441,7 +441,6 @@ label:not(.submit){
     padding-left: 4em;
     justify-content: center;
     width:80vw;
- 
     font-size: medium;
     font-weight: 300;
     color: rgb(253, 253, 253);
@@ -452,7 +451,7 @@ label:not(.submit){
     .div-scroll-about{
 
       position: relative;
-      bottom:-0em;
+      bottom:5em;
       
     }
    
@@ -468,6 +467,8 @@ label:not(.submit){
     color: rgb(0, 0, 0);
     width: 100vw;
     height: auto;
+    position: relative;
+    bottom: 4em;
     
   }
   .contact-card{
@@ -475,7 +476,7 @@ label:not(.submit){
     width: 80vw;
     height: 60vh;
     left: 3em;
-    top: 14em;
+    top: 7em;
   }
   
   .contact h1{
@@ -514,8 +515,8 @@ label:not(.submit){
   }
 
   .contact-bar{
-      margin-top: 20em;
-      height: 35vh;
+      margin-top: 12em;
+      height: 20vh;
     }
   
 
@@ -534,36 +535,20 @@ x
        top:4em;
      }
      
-  
-
-
-.scroll-logo-2{
- 
- 
-}
-
-
-.img-scroll-contact{
-
-
-}
-
-
-
     
   .mail-icon  img{
     position: relative;
     bottom: 280px;
-    left: 42%;
+    left: 37%;
 
   }
   .github-icon  img{
     position: relative;
-    left: 63%;
+    left: 57%;
   }
   .linkedin-icon  img{
     position: relative;
-    left: 53%;
+    left: 47%;
   }
 
   }
@@ -622,7 +607,7 @@ right: 5em;
   justify-content: left;
   padding: 3em 0 0 0; 
   position: relative;
-  top: 15em;
+  top: 14em;
 }
 
 .pic{
