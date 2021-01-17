@@ -411,7 +411,7 @@ label:not(.submit){
 
 
   .about{
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
   }
  
@@ -468,7 +468,7 @@ label:not(.submit){
     width: 100vw;
     height: auto;
     position: relative;
-    bottom: 4em;
+    bottom: 6em;
    
   }
   .contact-card{
@@ -525,7 +525,6 @@ label:not(.submit){
       padding-left: 4em;
      }
 
-x
      .submit{
       margin:0 0 0  10%;
      }
@@ -587,6 +586,18 @@ x
   left : -2em;
 
 }
+
+.project-card a:not(:first-child){
+  position: relative;
+  top: 10em;
+  left :-10em;
+
+}
+
+
+
+
+
 .project-card h6{
 position: relative;
 right: 5em;
