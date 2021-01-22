@@ -122,12 +122,12 @@ componentDidMount() {
           </div >
                 <div class="pic">
                  <div className="slide-container" >
-                    <Slide  style={{'width':'700px',"margin-left":"20em"}}>  
+                    <Slide  style={{'width':'70vw',"margin-left":"20em"}}>  
                     { this.images().map(el=> 
                         <div className="each-slide">
                           <div style={{'backgroundImage': `url(${el})`}}>
                             <span>  <img src={el} 
-                                style={{'height':'400px','width':'700px'}}
+                                style={{'height':'50vh','width':'70vw'}}
                                 alt="p"/>
                             </span>
                           </div>
@@ -135,10 +135,8 @@ componentDidMount() {
                     )}
                     </Slide>
                   </div>  
-                  </div>
-  
-                      
-        </div>
+                  </div>  
+           </div>
        
     )
     }

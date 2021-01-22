@@ -1,3 +1,4 @@
+
 html,body{
   margin: 0;
   overflow-x: hidden;
@@ -5,11 +6,11 @@ html,body{
 }
 
 .about{
-
-  height: 70%;
+ 
+  height: 100vh;
   position: relative;
-  width: 100%;
-  bottom:3em;
+  width: 100vw;
+  bottom:5em;
   margin-bottom: 1em;
 
 }
@@ -37,13 +38,13 @@ html,body{
 }
 
 .self-img{
-  width:22%;
-  height:30%;
+  width:17%;
+  height:33%;
   position: absolute;;
   left:40%;
-  top: 5em;
+  top: 6em;
   border: 2px solid rgb(199, 172, 167);
-  border-radius: 400px;
+  border-radius: 500px;
   background-color: rgb(243, 243, 243);
   
   
@@ -71,11 +72,12 @@ html,body{
 }
 
 .contact{
+
   background-color: rgb(13, 47, 70);
   color: rgb(0, 0, 0);
   width: 100vw;
   height: 130vh;
-  margin-top: -10em;
+  margin-top: -2em;
 }
 .contact-card{
   display: grid;
@@ -132,12 +134,12 @@ html,body{
 
 
 .work{
-
+ 
   background-color: rgb(108, 144, 155);
   position: relative;
   bottom: 17em;
   width: 100vw;
-  height: 150vh;
+  height: 165vh;
   
 }
 
@@ -166,7 +168,7 @@ html,body{
   width: 100vw;
   height: 100vh;
   margin-bottom: -3em;
-  background-size: ;
+
 
  }
 
@@ -184,44 +186,56 @@ html,body{
      color: #e7ecff;
      justify-content: left;
      padding: 3em 0 0 0; 
-     margin-top:-16em ;  
+     margin-top:-15em ;  
  }
 
  .github-icon img{
+      position: relative;
+      bottom:220px;
+      left: 50%;
+      width: 25px;
+      height: 25px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(231, 231, 235);
+
+ }
+
+ 
+ .resume-icon  img{
   position: relative;
-  bottom:220px;
-  left: 50%;
+  bottom:305px;
+  left: 40%;
   width: 25px;
   height: 25px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(231, 231, 235);
-
  }
   
  .mail-icon  img{
-  
-  position: relative;
-  bottom:275px;
-  left: 45%;
-  width: 25px;
-  height: 25px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(231, 231, 235);
+      
+      position: relative;
+      bottom:275px;
+      left: 45%;
+      width: 25px;
+      height: 25px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(231, 231, 235);
 
  }
 
  .linkedin-icon img {
 
-  position: relative;
-  bottom:250px;
-  left: 55%;
-  width: 25px;
-  height: 25px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(231, 231, 235);
+    position: relative;
+    bottom:250px;
+    left: 55%;
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgb(231, 231, 235);
 
  }
 
@@ -325,7 +339,7 @@ html,body{
 }
 
 
-@media only screen and (max-width:700px)  and (min-width:320px) {
+@media only screen and (max-width: 1024px)  and (min-width:320px) {
    
     .sidebar {
       display:block
@@ -398,7 +412,7 @@ label:not(.submit){
  
 
 
-@media only screen and (max-width:700px) and (min-width:320px){
+@media only screen and (max-width: 1024px)  and (min-width:320px){
 
   .img-home{
     width:100vw;
@@ -407,12 +421,15 @@ label:not(.submit){
 
 }
 
-@media only screen and (max-width:700px)  and (min-width:320px) {
+@media only screen and (max-width: 1024px)  and (min-width:320px) {
 
 
   .about{
-    height: 110vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
+    margin: 0 0 0 0;
+    
+
   }
  
     .self-img{
@@ -458,7 +475,7 @@ label:not(.submit){
    
 }
 
-@media only screen and (max-width:780px)  and (min-width:320px){
+@media only screen and (max-width: 1024px)  and (min-width:320px){
 
  
 
@@ -468,7 +485,7 @@ label:not(.submit){
     width: 100vw;
     height: auto;
     position: relative;
-    bottom: 6em;
+    bottom: 11em;
    
   }
   .contact-card{
@@ -537,7 +554,7 @@ label:not(.submit){
     
   .mail-icon  img{
     position: relative;
-    bottom: 280px;
+    bottom: 277px;
     left: 37%;
 
   }
@@ -550,13 +567,16 @@ label:not(.submit){
     left: 47%;
   }
 
+  .resume-icon  img{
+    position: relative;
+    left: 27%;
+  }
+
   }
 
 
-  @media only screen and (max-width:700px)  and (min-width:320px) {
+  @media only screen and (max-width: 1024px)   and (min-width:320px) {
   
-
-
     .work{
       height: 320vh; 
       position: relative;
@@ -569,7 +589,6 @@ label:not(.submit){
       margin-bottom:10em ;
       position: relative;
       left: -2em;
-
       margin-top: -2em;
     }
 
@@ -596,8 +615,6 @@ label:not(.submit){
 
 
 
-
-
 .project-card h6{
 position: relative;
 right: 5em;
@@ -617,13 +634,12 @@ right: 5em;
   font-size: larger;
   justify-content: left;
   padding: 3em 0 0 0; 
-  position: relative;
-  top: 14em;
+  
+  
 }
 
-.pic{
-  position: relative;
-  right: 20em;
+.pic {
+  display: none;
 }
 
 .scroll-logo-3{
@@ -635,6 +651,11 @@ right: 5em;
 }
 
 
+.pic{
+  position: relative;
+  right: 7em;
+  top: 2em;
+}
 
 
 

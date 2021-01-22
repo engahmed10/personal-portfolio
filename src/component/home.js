@@ -5,9 +5,17 @@ import { NavLink }  from 'react-router-dom'
 
 class Home extends Component{
 
+
+
+handleOpen=(e)=>{
+  
+
+
+}
+
     render(){
          return(
-             <div  class="container-home" >
+                <div  class="container-home" >
                  
                 <img class="img-home"   src="./moon-design.gif" alt="back"/>
                 
@@ -22,8 +30,12 @@ class Home extends Component{
                 <div  class="mail-icon">
                     <a href="mailto:eng.ahmedefendi@gmail.com" target="_blank">  <img src="./gmail.svg" alt="github" /> </a>
                 </div>
+                <div  class="resume-icon">
+                      <a  target="_blank"  href="https://docs.google.com/document/d/1iMP7PonDSvU66JGannwcaPYABYseeRpsssWJ1Tq1prQ/edit">  <img src="./resume.png" alt="resume"  /> </a>
+                </div>
+       
 
-            </div>
+                </div>
           )
     } 
    
